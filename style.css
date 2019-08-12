@@ -1,0 +1,58 @@
+/* Styling for the card element */
+
+.StripeElement {
+    box-sizing: border-box;
+  
+    height: 40px;
+  
+    padding: 10px 12px;
+  
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+
+  input[type="number"] {
+    background-color: #f9f9f9;
+    border: 0;
+    font-size: 13px;
+    font-size: 1rem;
+    padding: 0.6em;
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+
+  #payment-form .form-top label {
+    width:15%;
+  
+  }
+  
+  #payment-form .form-row.form-top {
+    display:flex;
+    align-items:center;	
+    margin: 8px 0;
+  }
+  
+  #payment-form .form-top input {
+    width:100%;
+  }
+
+  #payment-form .sub-row {
+    margin-top:10px;
+  }
